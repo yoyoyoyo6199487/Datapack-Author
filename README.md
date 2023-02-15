@@ -1,5 +1,5 @@
 CREDIT
   yoyoyoyo6199487
-  kounyan5656
-  kamabokko
+  
+commandsフォルダはコマンドのことを書いてあるtxtファイルが入ってるよ
 好きに使って
