@@ -36,7 +36,7 @@
       でも座標で設定したい!
       ってなるときはもちろんあります
       なので...
-  3 : execute positioned
+  3 : execute positioned とは
       これは execute at と違い単純です
     書き方
       execute positioned X座標 Y座標 Z座標
