@@ -49,3 +49,18 @@
       の場合(真似すると重くなったり　建築物が壊れたりする恐れがあるので書かない方がいいです)
       座標 x0 y60 z0　で　20x20の範囲のブロックを破壊します
         豆知識 : fill destroy は　普通の fill と違いブロックを破壊した後に経験値やアイテムを落とす
+  4 : execute store
+      これは難しいです　理解するのに時間がかかりましたし　まだ僕もわかってないことだらけだとおもいます
+    書き方
+      execute store result entityまたはscoreまたはbossbar セレクター (NBT) (型) 1 run
+    どういう意味?
+      ※僕はsuccessの使い方を知りません
+      ちなみに上の書き方は entityまたはscoreまたはbossbarの部分で entity を選んだ場合の書き方です
+      プレイヤー以外のエンティティのNBTをコマンドの実行結果に置き換えます
+      たとえば 
+      data get entity セレクター Health
+      の場合 実行結果は エンティティ(セレクター)の現在の体力になります
+      なので
+      execute as セレクター store result score @s スコア名 run data get entity @s Health
+      にすると
+      セレクターのスコア(スコア名)がセレクターのHPになります
