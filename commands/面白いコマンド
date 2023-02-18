@@ -1,0 +1,15 @@
+ここでは面白いコマンドを紹介します
+
+  このコマンドを常時実行すると...
+  
+  execute as @e at @s if block ~ ~ ~ minecraft:water run effect give @s poison 1 10
+  
+  このコマンドは　水に入ると毒状態になります
+  
+  さらにこのコマンドを常時実行すると...
+  
+  execute as @e at @s if block ~ ~ ~ minecraft:lava run effect give @s minecraft:regeneration 1 8
+  
+  マグマに入ると回復します
+  
+  逆転ですw
